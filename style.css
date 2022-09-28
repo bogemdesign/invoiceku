@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 body {
     font-size: 12px;
     width: 100%;
@@ -15,7 +13,6 @@ body {
 .clear{
   clear: both;
 }
-
 header .logo{
   max-width: 80%;
   margin: 50px auto 0;
@@ -60,7 +57,7 @@ table{
   font-size:10px;
 }
 #barang th{
-  background: #37E1F8;
+  background: #fcfcfc;
   color: white;
 }
 #barang th,td{
