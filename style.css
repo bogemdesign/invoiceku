@@ -9,6 +9,7 @@ body {
     font-size: 12px;
     width: 100%;
     min-height: 100vh;
+    background:linear-gradient(-45deg, rgb(7, 183, 189),rgb(18, 96, 148));
     font-family: Arial, Helvetica, sans-serif;
 }
 .clear{
