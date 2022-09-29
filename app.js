@@ -98,7 +98,7 @@ function depo(){
   // let isideporess= hilangkanTitik(isiDepo)+hilangkanTitik(isiRess);
   
   let hasil = document.querySelector('.hasil').textContent;
-
+let hasilNoTitik = hilangkanTitik(hasil)
   let hasilDiKurangiDepo = hilangkanTitik(hasil)-parseInt(isideponotitik);
    let namaPelanggan =document.getElementById('nama-pelanggan').value
   
@@ -110,7 +110,9 @@ function depo(){
   
   
   alert('Data Berhasil di tambahkan')
-  
+  if(hasilNoTitik=== isideponotitik){
+    return bayar.textContent="Lunas"
+  }
  return bayar.textContent=titikRupiah(hasilDiKurangiDepo);
   
 
