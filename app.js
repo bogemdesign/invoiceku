@@ -95,11 +95,11 @@ function depo(){
    let isiRess= ress.textContent=titikRupiah(inputRess);
   let isideponotitik = hilangkanTitik(isiDepo)
   
-   let isideporess= hilangkanTitik(isiDepo)+hilangkanTitik(isiRess);
+   let isideporessdiskon= hilangkanTitik(isiDepo)+hilangkanTitik(isiRess);
   
   let hasil = document.querySelector('.hasil').textContent;
 let hasilNoTitik = hilangkanTitik(hasil)
-  let hasilDiKurangiDepo = hilangkanTitik(hasil)-parseInt(isideponotitik);
+  let hasilDiKurangiDepo = hilangkanTitik(hasil)-parseInt(isideporessdiskon);
    let namaPelanggan =document.getElementById('nama-pelanggan').value
   
   document.querySelector('.nama').textContent=namaPelanggan
