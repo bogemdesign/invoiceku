@@ -88,14 +88,14 @@ function depo(){
  
  
   
-  // let ress =document.querySelector('.res')
+   let ress =document.querySelector('.res')
   let depo =document.querySelector('.depo')
   
   let isiDepo = depo.textContent=titikRupiah(inputDepo);
-  // let isiRess= ress.textContent=titikRupiah(inputRess);
+   let isiRess= ress.textContent=titikRupiah(inputRess);
   let isideponotitik = hilangkanTitik(isiDepo)
   
-  // let isideporess= hilangkanTitik(isiDepo)+hilangkanTitik(isiRess);
+   let isideporess= hilangkanTitik(isiDepo)+hilangkanTitik(isiRess);
   
   let hasil = document.querySelector('.hasil').textContent;
 let hasilNoTitik = hilangkanTitik(hasil)
