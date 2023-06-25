@@ -85,6 +85,7 @@ console.log(hasilKeInteger)
 function depo(){
   
   let inputDepo=document.getElementById('deposit').value;
+   let inputRess=document.getElementById('res').value;
  
  
   
