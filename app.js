@@ -114,7 +114,7 @@ let hasilNoTitik = hilangkanTitik(hasil)
   if(hasilNoTitik == isideponotitik){
     return bayar.textContent="Lunas"
   }
-  if(bayar == '0'){
+  if(hasilNoTitik == '0'){
      return bayar.textContent="Lunas"
   }
  return bayar.textContent=titikRupiah(hasilDiKurangiDepo);
